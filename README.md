@@ -31,3 +31,20 @@ this project for Arabic summarization meeting the data was translated from sumsa
 **Dataset for Finetuning:**
 
 * Conll2003: https://huggingface.co/datasets/conll2003
+## About BLOOM:
+
+**The Model**:
+* 176B parameters decoder-only architecture (GPT-like)
+* 70 layers - 112 attention heads per layers - hidden dimensionality of 14336 - 2048 tokens sequence length
+    
+    
+BLOOM uses a Transformer architecture composed of an input embeddings layer, 70 Transformer blocks, and an output language-modeling layer, as shown in the figure below. Each Transformer block has a self-attention layer and a multi-layer perceptron layer, with input and post-attention layer norms.
+
+![](https://miro.medium.com/max/1400/1*uwWJBgEx3Rtovbcb7HcRdA.jpeg)
+    
+**The Dataset**:
+* Multilingual: 46 languages: Full list is here: [https://bigscience.huggingface.co/blog/building-a-tb-scale-multilingual-dataset-for-language-modeling](https://bigscience.huggingface.co/blog/building-a-tb-scale-multilingual-dataset-for-language-modeling)
+* 341.6 billion tokens (1.5 TB of text data)
+* Tokenizer vocabulary: 250 680 tokens
+
+![](https://github.com/bigscience-workshop/model_card/blob/main/assets/data/pie_v2.svg?raw=true)
