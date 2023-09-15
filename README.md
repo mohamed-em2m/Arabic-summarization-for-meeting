@@ -1,6 +1,6 @@
 # Arabic-summarization-for-meeting
 this project for Arabic summarization meeting the data was translated from sumsam and dialogsum
-# Finetuning BLOOM for Token Classification 
+# Finetuning BLOOMZ for  messages summarization  in arabic
  
  
 **Information about BLOOM:**
