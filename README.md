@@ -2,14 +2,16 @@
 this project for Arabic summarization meeting the data was translated from sumsam and dialogsum useing bloomz 3b and lora 
 #
 **deployment for project hugging face:** https://huggingface.co/spaces/mohamedemam/Arabic-meeting-summarization
+
 **the translated dataset:** https://huggingface.co/datasets/mohamedemam/Arabic-samsum-dialogsum
+
 # Finetuning BLOOMZ for  messages summarization  in arabic
  
  
 **Information about BLOOM:**
 
 * Documentation: https://huggingface.co/docs/transformers/model_doc/bloom
-* Model: https://huggingface.co/bigscience/bloom
+* Model: [https://huggingface.co/bigscience/bloom](https://huggingface.co/mohamedemam/Arabic-meeting-summarization)
 * Github: https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme
 
 **Transformers Package Documentation in Huggingface.co:**
@@ -37,11 +39,10 @@ this project for Arabic summarization meeting the data was translated from sumsa
 ## About BLOOM:
 
 **The Model**:
-* 176B parameters decoder-only architecture (GPT-like)
-* 70 layers - 112 attention heads per layers - hidden dimensionality of 14336 - 2048 tokens sequence length
+* 3B parameters decoder-only architecture (GPT-like)
     
     
-BLOOM uses a Transformer architecture composed of an input embeddings layer, 70 Transformer blocks, and an output language-modeling layer, as shown in the figure below. Each Transformer block has a self-attention layer and a multi-layer perceptron layer, with input and post-attention layer norms.
+BLOOM uses a Transformer architecture composed of an input embeddings layer, and an output language-modeling layer, as shown in the figure below. Each Transformer block has a self-attention layer and a multi-layer perceptron layer, with input and post-attention layer norms.
 
 ![](https://miro.medium.com/max/1400/1*uwWJBgEx3Rtovbcb7HcRdA.jpeg)
     
