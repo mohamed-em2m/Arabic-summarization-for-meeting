@@ -1,10 +1,11 @@
-# Arabic-summarization-for-meeting
-this project for Arabic summarization meeting the data was translated from sumsam and dialogsum useing bloomz 3b and lora 
-#
+
 **deployment for project hugging face:** https://huggingface.co/spaces/mohamedemam/Arabic-meeting-summarization
 
 **the translated dataset:** https://huggingface.co/datasets/mohamedemam/Arabic-samsum-dialogsum
 
+# Arabic-summarization-for-meeting
+this project for Arabic summarization meeting the data was translated from sumsam and dialogsum useing bloomz 3b and lora 
+#
 # Finetuning BLOOMZ for  messages summarization  in arabic
  
  
